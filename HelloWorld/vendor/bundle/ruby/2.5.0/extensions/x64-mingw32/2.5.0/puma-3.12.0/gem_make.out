@@ -1,0 +1,21 @@
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/puma-3.12.0/ext/puma_http11
+C:/Ruby25/bin/ruby.exe -r ./siteconf20181212-6204-vwkl1n.rb extconf.rb
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+creating Makefile
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/puma-3.12.0/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/puma-3.12.0/ext/puma_http11
+make "DESTDIR="
+generating puma_http11-x64-mingw32.def
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/puma-3.12.0/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20181212-6204-1e0bwel/puma

@@ -1,0 +1,9 @@
+<h1><%=@hello.hello_text %>!<%=@world.hello_text %>!!</h1>
+<p>Find me in app/views/hello_controller/hello_view.html.erb</p>
+<p>
+    foreach check ->
+    <% @hello_world.each do |text| %>
+        <%= text.hello_text %>
+    <% end %>
+    !!
+</p>

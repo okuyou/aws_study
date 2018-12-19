@@ -1,0 +1,20 @@
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+C:/Ruby25/bin/ruby.exe -r ./siteconf20181212-6204-xshgbv.rb extconf.rb
+creating Makefile
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+generating byebug-x64-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: c:/Ruby_src/environment/HelloWorld/vendor/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20181212-6204-1pucio7/byebug
